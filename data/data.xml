@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<Etablissement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="shemaAbsece.xsd">
+  <Enseignants>
+    <Enseignant ischef="1" Sexe="Feminin">
+      <NumSomme>EN01</NumSomme>
+      <CIN>string</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="Fixe">string</Tele>
+      <Email type="Personnel">string</Email>
+      <Password>string</Password>
+    </Enseignant>
+    <Enseignant ischef="true" Sexe="Masculin">
+      <NumSomme>EN02</NumSomme>
+      <CIN>string</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="Fixe">string</Tele>
+      <Email type="Academique">string</Email>
+      <Password>string</Password>
+    </Enseignant>
+    <Enseignant ischef="0" Sexe="Masculin">
+      <NumSomme>EN03</NumSomme>
+      <CIN>string</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="GSM">string</Tele>
+      <Email type="Personnel">string</Email>
+      <Password>string</Password>
+    </Enseignant>
+  </Enseignants>
+ <Etudiants>
+    <Etudiant Sexe="Masculin">
+      <Idclasse>C01</Idclasse>
+      <NumInscription>ET01</NumInscription>
+      <CIN>string</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="GSM">string</Tele>
+      <Email type="Personnel">string</Email>
+      <Password>string</Password>
+      <DateNaissance>2011-02-18</DateNaissance>
+      <Adresse>
+        <rue>string</rue>
+        <numero>string</numero>
+        <ville>string</ville>
+      </Adresse>
+      <idniveau>N01</idniveau>
+    </Etudiant>
+    <Etudiant Sexe="Masculin">
+      <Idclasse>C01</Idclasse>
+      <NumInscription>ET02</NumInscription>
+      <CIN>string</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="Fixe">string</Tele>
+      <Email type="Academique">string</Email>
+      <Password>string</Password>
+      <DateNaissance>2015-05-04</DateNaissance>
+      <Adresse>
+        <rue>string</rue>
+        <numero>string</numero>
+        <ville>string</ville>
+      </Adresse>
+      <idniveau>N01</idniveau>
+    </Etudiant>
+    <Etudiant Sexe="Feminin">
+      <Idclasse>C02</Idclasse>
+      <NumInscription>ET03</NumInscription>
+      <CIN>string</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="GSM">string</Tele>
+      <Email type="Academique">string</Email>
+      <Password>string</Password>
+      <DateNaissance>1997-12-18</DateNaissance>
+      <Adresse>
+        <rue>string</rue>
+        <numero>string</numero>
+        <ville>string</ville>
+      </Adresse>
+      <idniveau>N01</idniveau>
+    </Etudiant>
+    <Etudiant Sexe="Feminin">
+      <Idclasse>C02</Idclasse>
+      <NumInscription>ET04</NumInscription>
+      <CIN>string</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="GSM">string</Tele>
+      <Email type="Academique">string</Email>
+      <Password>string</Password>
+      <DateNaissance>1974-11-11</DateNaissance>
+      <Adresse>
+        <rue>string</rue>
+        <numero>string</numero>
+        <ville>string</ville>
+      </Adresse>
+      <idniveau>N03</idniveau>
+    </Etudiant>
+  </Etudiants>
+  <Modules>
+   <Module>
+<CodeModule>M1</CodeModule>
+<NomModule>Langues Etrangeres (francais,anglais)et cultures</NomModule>
+<Coordonateur>EN01</Coordonateur>
+</Module>
+<Module>
+<CodeModule>M2</CodeModule>
+<NomModule>Soft skills</NomModule>
+<Coordonateur>EN02</Coordonateur>
+</Module>
+<Module>
+<CodeModule>M6</CodeModule>
+<NomModule>Base de donné avanacé</NomModule>
+<Coordonateur>EN03</Coordonateur>
+</Module>
+  </Modules>
+  <Matieres>
+    <Matiere>
+      <CodeMatiere>M1C1</CodeMatiere>
+      <libelle>Francais</libelle>
+      <moduleMat>M1</moduleMat>
+      <EnseignantMatiere>EN01</EnseignantMatiere>
+    </Matiere>
+        <Matiere>
+      <CodeMatiere>M1C2</CodeMatiere>
+      <libelle>Anglais</libelle>
+      <moduleMat>M1</moduleMat>
+      <EnseignantMatiere>EN02</EnseignantMatiere>
+    </Matiere>
+  </Matieres>
+  <Filieres>
+    <Filiere>
+      <CodeFiliere>F01</CodeFiliere>
+      <libelle>TIMQ</libelle>
+      <idDepartement>D01</idDepartement>
+      <chefFiliere>EN01</chefFiliere>
+    </Filiere>
+    <Filiere>
+      <CodeFiliere>F02</CodeFiliere>
+      <libelle>GI</libelle>
+      <idDepartement>D02</idDepartement>
+      <chefFiliere>EN02</chefFiliere>
+    </Filiere>
+    <Filiere>
+      <CodeFiliere>F03</CodeFiliere>
+      <libelle>TIM</libelle>
+      <idDepartement>D03</idDepartement>
+      <chefFiliere>EN03</chefFiliere>
+    </Filiere>
+  </Filieres>
+<Seances>
+<seance>
+      <Idseance>S01</Idseance>
+      <idMatiere>M1C1</idMatiere>
+      <HeureDebut>09:43:16.40</HeureDebut>
+      <HeureFin>10:54:22.08</HeureFin>
+      <dateSeance>2017-08-12</dateSeance>
+    </seance>
+    <seance>
+      <Idseance>S02</Idseance>
+      <idMatiere>M1C2</idMatiere>
+      <HeureDebut>10:20:00.00</HeureDebut>
+      <HeureFin>12:30:00.00</HeureFin>
+      <dateSeance>1974-04-03</dateSeance>
+    </seance>
+        <seance>
+      <Idseance>S03</Idseance>
+      <idMatiere>M1C1</idMatiere>
+      <HeureDebut>09:30:00.00</HeureDebut>
+      <HeureFin>17:30:00.00</HeureFin>
+      <dateSeance>1991-06-19</dateSeance>
+    </seance>
+  </Seances>
+  <AgentScloarites>
+    <AgentScloarite>
+     <idagentScolarite>AG01</idagentScolarite>
+      <CIN>HH145523</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="GSM">string</Tele>
+      <Email type="Personnel">string</Email>
+      <Password>string</Password>
+      <DateNaissance>1992-06-24</DateNaissance>
+      <Adresse>
+        <rue>string</rue>
+        <numero>string</numero>
+        <ville>string</ville>
+      </Adresse>
+    </AgentScloarite>
+      <AgentScloarite>
+     <idagentScolarite>AG02</idagentScolarite>
+      <CIN>HH145523</CIN>
+      <Nom>string</Nom>
+      <Prenom>string</Prenom>
+      <Tele type="GSM">string</Tele>
+      <Email type="Personnel">string</Email>
+      <Password>string</Password>
+      <DateNaissance>1992-06-24</DateNaissance>
+      <Adresse>
+        <rue>string</rue>
+        <numero>string</numero>
+        <ville>string</ville>
+      </Adresse>
+    </AgentScloarite>
+  </AgentScloarites>
+  <Permisions>
+    <permision>
+      <Ajouter>string</Ajouter>
+      <idRole>R01</idRole>
+      <suprimer>string</suprimer>
+      <Modifier>string</Modifier>
+      <Afficher>string</Afficher>
+    </permision>
+    <permision>
+      <Ajouter>string</Ajouter>
+      <idRole>R01</idRole>
+      <suprimer>string</suprimer>
+      <Modifier>string</Modifier>
+      <Afficher>string</Afficher>
+    </permision>
+    <permision>
+      <Ajouter>string</Ajouter>
+      <idRole>R01</idRole>
+      <suprimer>string</suprimer>
+      <Modifier>string</Modifier>
+      <Afficher>string</Afficher>
+    </permision>
+  </Permisions>
+  <Absences>
+    <absence>
+      <IdAbsence>AB01</IdAbsence>
+      <dure>1998-10-08</dure>
+      <IdEtudiant>ET01</IdEtudiant>
+      <idseance>S01</idseance>
+    </absence>
+    <absence>
+      <IdAbsence>AB02</IdAbsence>
+      <dure>2015-08-23</dure>
+      <IdEtudiant>ET02</IdEtudiant>
+      <idseance>S02</idseance>
+    </absence>
+    <absence>
+      <IdAbsence>AB03</IdAbsence>
+      <dure>1986-08-19</dure>
+      <IdEtudiant>ET03</IdEtudiant>
+      <idseance>S03</idseance>
+    </absence>
+  </Absences>
+  <Roles>
+  <role>
+      <IdRole>R01</IdRole>
+      <idEnseigant>EN01</idEnseigant>
+      <idchefFileire>EN02</idchefFileire>
+      <idchefDepartement>EN03</idchefDepartement>
+      <idagentScolarite>AG01</idagentScolarite>
+    </role>
+    <role>
+      <IdRole>R02</IdRole>
+      <idEnseigant>EN01</idEnseigant>
+      <idchefFileire>EN01</idchefFileire>
+      <idchefDepartement>EN01</idchefDepartement>
+      <idagentScolarite>AG02</idagentScolarite>
+    </role>
+  </Roles>
+  <Niveaux>
+    <Niveau>
+      <Idniveau>N01</Idniveau>
+      <anneesscolaire>2013-07-20</anneesscolaire>
+      <libelle>Premiere Annné</libelle>
+    </Niveau>
+    <Niveau>
+      <Idniveau>N02</Idniveau>
+      <anneesscolaire>2016-01-12</anneesscolaire>
+      <libelle>Deuxieme Années</libelle>
+    </Niveau>
+    <Niveau>
+      <Idniveau>N03</Idniveau>
+      <anneesscolaire>1987-02-24</anneesscolaire>
+      <libelle>Licence</libelle>
+    </Niveau>
+  </Niveaux>
+  <Classes>
+    <Classe>
+      <Idclasse>C01</Idclasse>
+      <idEnseignant>EN01</idEnseignant>
+      <libelle>Section1</libelle>
+    </Classe>
+    <Classe>
+      <Idclasse>C02</Idclasse>
+      <idEnseignant>EN02</idEnseignant>
+      <libelle>Section2</libelle>
+    </Classe>
+  </Classes>
+  <Departements>
+    <departement>
+      <CodeDepartement>D01</CodeDepartement>
+      <libelle>GI</libelle>
+      <chefDepartement>EN01</chefDepartement>
+    </departement>
+    <departement>
+      <CodeDepartement>D02</CodeDepartement>
+      <libelle>TIM</libelle>
+      <chefDepartement>EN02</chefDepartement>
+    </departement>
+    <departement>
+      <CodeDepartement>D03</CodeDepartement>
+      <libelle>TIMQ</libelle>
+      <chefDepartement>EN03</chefDepartement>
+    </departement>
+  </Departements>
+</Etablissement>
